@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:vue/vue3-essential",
+    "eslint:recommended",
+    "prettier",
+    "@vue/eslint-config-typescript",
+    "@nuxtjs/eslint-config-typescript"
+  ],
+  "rules": {
+    "quotes": ["error", "double"],
+    "vue/singleline-html-element-content-newline": "off",
+    "space-before-function-paren": "off",
+    "vue/no-multiple-template-root": "off"
+  }
+}
