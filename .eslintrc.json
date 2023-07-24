@@ -10,6 +10,7 @@
   "rules": {
     "quotes": ["error", "double"],
     "vue/singleline-html-element-content-newline": "off",
+    "vue/html-self-closing": "off",
     "space-before-function-paren": "off",
     "vue/no-multiple-template-root": "off"
   }
